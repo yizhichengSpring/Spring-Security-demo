@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @Description 测试controller
  * @Date 2020/10/20 11:32 AM
  **/
-@Api(value = "日志",tags = "访问日志相关接口")
+@Api(value = "admin",tags = "提供的demo接口")
 @Slf4j
 @RestController
 @RequestMapping("/admin")
