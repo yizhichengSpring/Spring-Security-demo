@@ -13,12 +13,12 @@ import java.io.IOException;
 
 /**
  * @author yizhicheng
- * @ClassName FailAuthentication
+ * @ClassName FailAuthenticationHandler
  * @Description 401 未授权
  * @Date 2020/10/20 2:31 PM
  **/
 @Slf4j
-public class FailAuthentication extends BaseResponse implements AuthenticationEntryPoint {
+public class FailAuthenticationHandler extends BaseResponse implements AuthenticationEntryPoint {
 
     @Override
     public void commence(HttpServletRequest request, HttpServletResponse response, AuthenticationException e) throws IOException {

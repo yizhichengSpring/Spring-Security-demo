@@ -4,12 +4,8 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.study.demo.jwt.JwtUtils;
 import com.study.demo.security.mapper.UserMapper;
 import com.study.demo.security.pojo.User;
-import com.study.demo.security.pojo.UserInfo;
 import com.study.demo.security.service.AdminService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
