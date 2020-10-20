@@ -1,7 +1,7 @@
 package com.study.demo.security.exception;
 
 import cn.hutool.json.JSONUtil;
-import com.study.demo.util.Result;
+import com.study.demo.util.res.Result;
 import org.springframework.security.access.AccessDeniedException;
 import org.springframework.security.web.access.AccessDeniedHandler;
 

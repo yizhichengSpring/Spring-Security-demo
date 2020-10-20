@@ -2,7 +2,7 @@ package com.study.demo.util.enums;
 
 /**
  * @author yizhicheng
- * @ClassName YesOrNoBool
+ * @ClassName YesOrNoBool1
  * @Description Yes、No枚举类
  * @Date 2020/10/12 9:40 AM
  **/

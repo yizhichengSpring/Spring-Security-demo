@@ -2,7 +2,7 @@ package com.study.demo.security.exception;
 
 
 import cn.hutool.json.JSONUtil;
-import com.study.demo.util.Result;
+import com.study.demo.util.res.Result;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.AuthenticationEntryPoint;

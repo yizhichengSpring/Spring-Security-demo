@@ -1,12 +1,14 @@
 package com.study.demo.security.pojo;
 
+import java.io.Serializable;
+
 /**
  * @author yizhicheng
  * @ClassName User
  * @Description 实体类USER
  * @Date 2020/10/20 10:48 AM
  **/
-public class User {
+public class User implements Serializable {
 
     private String userName;
 

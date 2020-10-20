@@ -1,7 +1,7 @@
 package com.study.demo.controller;
 
 import com.study.demo.security.service.AdminService;
-import com.study.demo.util.Result;
+import com.study.demo.util.res.Result;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;

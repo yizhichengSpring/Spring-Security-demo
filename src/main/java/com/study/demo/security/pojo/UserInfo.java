@@ -3,6 +3,7 @@ package com.study.demo.security.pojo;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
+import java.io.Serializable;
 import java.util.Collection;
 
 /**
@@ -11,7 +12,7 @@ import java.util.Collection;
  * @Description 用户信息
  * @Date 2020/10/20 10:44 AM
  **/
-public class UserInfo implements UserDetails {
+public class UserInfo implements UserDetails, Serializable {
 
     private User user;
 
