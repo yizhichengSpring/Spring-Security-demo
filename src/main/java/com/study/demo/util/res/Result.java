@@ -1,8 +1,8 @@
-package com.study.demo.util;
+package com.study.demo.util.res;
 
 import com.study.demo.util.enums.YesOrNoBool;
+import com.study.demo.util.http.HttpStatusCode;
 import com.study.demo.util.http.HttpStatusCodeEnums;
-import com.study.demo.util.res.FailInfo;
 import lombok.Getter;
 
 import java.io.Serializable;

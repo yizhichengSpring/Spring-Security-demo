@@ -1,8 +1,8 @@
 package com.study.demo.security.config;
 
 import com.study.demo.config.IgnoreUrlConfig;
-import com.study.demo.security.exception.FailAuthentication;
-import com.study.demo.security.exception.FailForbiddenException;
+import com.study.demo.security.exception.FailAuthenticationHandler;
+import com.study.demo.security.exception.FailForbiddenExceptionHandler;
 import com.study.demo.security.filter.JwtFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -83,8 +83,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
          * 自定义异常返回值
          */
         http.exceptionHandling()
-                .authenticationEntryPoint(new FailAuthentication())
-                .accessDeniedHandler(new FailForbiddenException());
+                .authenticationEntryPoint(new FailAuthenticationHandler())
+                .accessDeniedHandler(new FailForbiddenExceptionHandler());
 
 
     }
@@ -100,12 +100,12 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     }
 
     @Bean
-    public FailForbiddenException failForbiddenException() {
-        return new FailForbiddenException();
+    public FailForbiddenExceptionHandler failForbiddenException() {
+        return new FailForbiddenExceptionHandler();
     }
 
     @Bean
-    public FailAuthentication failAuthentication() {
-        return new FailAuthentication();
+    public FailAuthenticationHandler failAuthentication() {
+        return new FailAuthenticationHandler();
     }
 }

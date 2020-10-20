@@ -6,12 +6,12 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.3.4.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
     <groupId>com.study</groupId>
     <artifactId>springsecurity-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springsecurity-demo</name>
+    <name>springSecurity-demo</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -24,6 +24,7 @@
     </properties>
 
     <dependencies>
+        <!--spring security-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
@@ -88,6 +89,7 @@
             <artifactId>mybatis-plus-generator</artifactId>
             <version>${mybatis-plus.version}</version>
         </dependency>
+        <!--Hutool 工具类-->
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
