@@ -1,5 +1,5 @@
 使用Spring Securiry 和 JWT 实现的登录鉴权操作,提供白名单功能
-
+------
 相关中间件
 
 - 脚手架 Spring boot
@@ -8,6 +8,8 @@
 - ORM  MyBatis
 - 工具 huool [https://www.hutool.cn/](https://www.hutool.cn/)
 - 接口文档 [https://doc.xiaominfo.com/](https://doc.xiaominfo.com/)
+
+------
 
 ### 第一步:
 
